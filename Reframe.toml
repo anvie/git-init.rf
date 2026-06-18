@@ -1,12 +1,13 @@
 [reframe]
 name = "Git Init"
 author = "reframe"
-min_version = "0.5.10"
+min_version = "0.5.11"
 mode = "apply"
 
 [project]
 name = "git-setup"
 version = "1.0"
+ignore_dirs = ["dist"]
 finish_text = """
   Pre-commit hook installed. Run `git commit` to test it.
 """
