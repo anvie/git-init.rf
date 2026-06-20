@@ -59,6 +59,14 @@ __pycache__/
 *.iso
 *.dmg
 
+# Claude (AI assistant)
+.claude/
+.refs/
+
+# Keys (project-level)
+/.keys
+/keys
+
 # Database
 *.sqlite
 *.sqlite3

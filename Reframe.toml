@@ -13,6 +13,9 @@ finish_text = """
 """
 
 [[post_generate]]
+command = "git init ."
+
+[[post_generate]]
 make_executable = "_hooks/pre-commit"
 command = "cp _hooks/pre-commit .git/hooks/pre-commit"
 
