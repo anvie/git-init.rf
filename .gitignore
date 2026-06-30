@@ -9,6 +9,7 @@ build/
 target/
 out/
 *.tsbuildinfo
+.astro/
 
 # Environment & secrets
 .env
@@ -49,6 +50,7 @@ coverage/
 __pycache__/
 *.pyc
 *.pyo
+*.lockb
 
 # Large data files
 *.zip
